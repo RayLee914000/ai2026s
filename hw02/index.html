@@ -99,8 +99,16 @@
     font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
 
+  @font-face {
+    /* 1. 幫你的字體取個名字 (例如叫 MyCustomFont) */
+    font-family: '113590011'; 
+    
+    /* 2. 指定字體檔案的路徑與格式 */
+    src: url('113590011.ttf') format('truetype'); 
+  }
+
   p{
-    font-family:'LXGW WenKai Mono TC';
+    font-family:'113590011';
   }
 
   .container-fluid {
@@ -169,7 +177,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      這是第二個作業，也是需要心得報告 105 字，這邊示範作業二的心得書寫乙次。這次生成自己的手寫體，算是幫自己努力手刻的字跡，留下一個美好的回憶，在這個數位時代，相片只剩像素的集合，藉由這次的經驗，使自己書寫的內容化身成為流暢的貝茲曲線，為數位時代留下一些痕跡，為之後的作業鋪上一層伏筆
+      這是第二份的作業，目標是將第一份作業所寫的字轉成ttf的文字檔，讓我可以使用在各種地方，起初以為只是要照著簡報上面的去做就好了，感覺起來挺簡單的，但殊不知是我想得太過美好，其中遇到不少問題，問題最大的我想還是我發現我製作pdf時粗心沒有檢查到有一份順序不一樣，最後只能在緊急關頭去做修改，不過好在最後還是拯救了起來。
     </div>
   </div>
 
@@ -178,7 +186,7 @@
     <div class="col-md-12 twenty">
       <span>字體檔位置連結：授權至SIL開源字型</span>
       <br>
-      <button type="button" onclick="location.href='https://github.com/lctung/ai2026s/blob/main/hw02/114598033.ttf'">
+      <button type="button" onclick="location.href='https://github.com/RayLee914000/ai2026s/tree/main//hw02/113590011.ttf'">
         前往查看字型
       </button>
       <div>(p.s 請記得修改網址)</div>
@@ -324,7 +332,7 @@
   
   function update(){
 
-    var score = 0;
+    var  = 0;
 
     if (d3.select("#myCheckbox1").property("checked")){
       score += parseInt(d3.select('#m1').html());

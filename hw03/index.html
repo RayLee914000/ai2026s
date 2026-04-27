@@ -31,8 +31,8 @@
   }
 
   @font-face {
-    font-family:'noto114598033';
-    src: url(https://lctung.github.io/ai2026s/hw03/noto114598033.woff2); 
+    font-family:'noto113590011';
+    src: url(Myfont_03_noto_113590011.ttf); 
   }
 
   table {
@@ -99,7 +99,7 @@
   }
 
   p{
-    font-family:'noto114598033', 'LXGW WenKai Mono TC';
+    font-family:'noto113590011';
   }
 
   .container-fluid {
@@ -168,7 +168,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      有了 FontDiffuser 的幫忙後，字體包的製程時間大幅下降至6小時內可以完成教育部常用字體的字體包，比起我們手寫4000多字的時間成本，已經大幅下修非常多，看著我很痠的手，真是非常感動。因為 colab 流量限制關係，如果要一次完成完整的字體包，需要改用 local 端來做 infer，因為 colab 對 GPU 有流量限制，無法讓我們一次跑完2萬字的訓練，但也沒關係，已經感受到生成式AI這個領域的樂趣了！
+      這次的作業我遇到了不少的麻煩，最開始我發現我訓練出來的結果都是錯的，只好一點點的去修正，因此花費了不少時間，甚至有一段眼看快做好了，結果發現順序是錯的，看到的那一刻整個心都涼了，不過好在最後我有找到問題，雖然說也還是花了不少時間來修正，不過好在修正是修正好了。
     </div>
   </div>
 
@@ -211,11 +211,11 @@
   <div class="row hw12 bottomrow">
     <div class="col-md-6 twenty">
       <figcaption>FontDiffuser 權重檔截圖</figcaption>
-      <img class="withborder" src="./ckpt_prtsc.png" width="100%">
+      <img class="withborder" src="./fontdiffuser.png" width="100%">
     </div>
     <div class="col-md-6 twenty">
       <figcaption>step 5000 權重檔內容截圖</figcaption>  
-      <img class="withborder" src="./5000ckpt_content_prtsc.png" width="100%">
+      <img class="withborder" src="./step5000.png" width="100%">
     </div>
   </div>
   
@@ -224,7 +224,7 @@
     <div class="col-md-12 twenty">
       <span>教育部常用字字體包位置連結：授權至SIL開源字型</span>
       <br>
-      <button type="button" onclick="location.href='https://github.com/lctung/ai2026s/blob/main/hw03/MOE114598033.ttf'">
+      <button type="button" onclick="location.href='https://github.com/RayLee914000/ai2026s/tree/main/hw03/Myfont_01_MOE_113590011.ttf'">
         前往查看字型
       </button>
       <div>(p.s 請記得修改網址)</div>
@@ -235,7 +235,7 @@
     <div class="col-md-12 twenty">
       <span>NotoSans 字體包位置連結：授權至SIL開源字型</span>
       <br>
-      <button type="button" onclick="location.href='https://github.com/lctung/ai2026s/blob/main/hw03/noto114598033.ttf'">
+      <button type="button" onclick="location.href='https://github.com/RayLee914000/ai2026s/tree/main/hw03/Myfont_03_noto_113590011.ttf'">
         前往查看字型
       </button>
       <div>(p.s 請記得修改網址)</div>
